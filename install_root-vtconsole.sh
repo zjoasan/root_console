@@ -1,6 +1,6 @@
 #!/bin/bash
 sudo dialog --title "Installing console launcher" --msgbox "\nPlease wait...\n" 11 70
-wget -O install_root-vtconsole.zip https://github.com/zjoasan/root_console/blob/master/install_root-vtconsole.zip?raw=true
+wget -q -O install_root-vtconsole.zip https://github.com/zjoasan/root_console/blob/master/install_root-vtconsole.zip?raw=true
 sleep 5
 unzip -q -o install_root-vtconsole.zip 
 chmod +x /home/osmc/root-console/consolestart.sh 2>&1
